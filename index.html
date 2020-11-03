@@ -6,39 +6,25 @@
     <title>My-First-website</title>
     <link rel="stylesheet" href= "styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    <style>
-        h1 {
-            font-family: 'Merriweather', courier;
-        }
-        h2 {
-            font-family: 'Merriweather', courier;
-        }
-        </style>
 </head>
 
 <body>
 <header>
     <nav id="navbar">
-        <table id="navTable">
-            <tbody>
-                <th class="navTableTh" id="logopic">
                     <a href="index.html"><img id="logo"  src="assets/aperture.svg" alt="logo"></a>
-                </th>
-                <th class="navTableTh" id="navlinks">
-                    <a class="link navlink"  href="index.html">home</a>
-                    <a class="link navlink" href="#wiki"here>wiki</a>
-                    <a class="link navlink" href=https://github.com/KereszturiJohanna  target="_blank">github</a>
-                    <a class="link navlink" href=https://www.linkedin.com/ target="_blank">linkedin</a>
-                </th>
-            </tbody>
-        </table>
+                    <ul id="navlinks"> 
+                        <li><a class="link navlink"  href="index.html">home</a></li>
+                        <li><a class="link navlink" href="#wiki"here>wiki</a></li>
+                        <li><a class="link navlink" href=https://github.com/KereszturiJohanna  target="_blank">github</a></li>
+                        <li><a class="link navlink" href=https://www.linkedin.com/ target="_blank">linkedin</a></li>
+                    </ul>
      </nav>
 </header>
 
-<div id="everything">
+<main>
 <section>
-    <section class="intro">
-        <h1 class="title" id="name">Kereszturi Johanna</h1>
+    <h1 class="title" id="name">Kereszturi Johanna</h1>
+    <section class="intro">  
         <h2 class="title2">Java-backend tanonc :)</h2>
         <p>Ezen a nyáron végeztem a Műegyetemen biomérnökként. Még sohasem foglalkoztam programozással,
             viszont mindig is érdekelt ez a terület, és manapság ez egy szinte bármelyik szakmában hasznosítható tudás. 
@@ -48,12 +34,9 @@
             társasozni a barátaimmal.
         </p>
     </section>
-        <p class="separator">---</p>
+        <div class="separator">---</div>
 </section>
 <section class="techWiki">
-    <!--A dölt betűs dolgokat majd tényleg dölt betűsre kéne állítani a végén!
-        Meg adj id-ket a cuccoknak hogy lehessen a css-ben formázni
-        és állítsd be az alap betűtipust is!-->
         <h1 class="title" id="wiki">Technology Wiki</h1>
         <article>
             <h2 class="title3">Logikai kapu</h2>
@@ -80,7 +63,7 @@
             <p>Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A <i>World Wide Web</i> adat kommunikációjának alapja. Ez az alapvető protokol a <i>hypertext</i> cseréjére és mozgatására.</p>
         </article>
 </section>
-</div>
+</main>
 
 </body>
 </html>

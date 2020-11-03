@@ -1,44 +1,125 @@
-body{
-    background-image: url('assets/topography.png'); margin: 0; padding:0;
-    font-family: courier;    
-}
-header {background-color: #333333; position: fixed; width: 100%;
-}
-nav { padding-left: 10%; padding-right: 10%; padding-top: 0.4%;padding-bottom: 0.4%;}
-#logo {padding-left: 20px; padding-top: 1%;}
-.title2 {color: #ff0099; margin-bottom: 2%; font-weight: 600;
-}
-.title3 { margin-bottom: 2%; font-weight: 600;
-}
-.link {color: #ff0099;}
-
-#everything{padding-left: 10%; padding-right: 10%;
-            text-align: center;
+body {
+    background-image: url('assets/topography.png');
+    margin: 0;
+    padding: 0;
+    font-family: courier;
 }
 
-#navTable {width: 100%;}
-.navTableTh {width: 50%}
-#logopic {text-align: left;}
-#navlinks {text-align: right;}
-.navlink {padding-left: 5%; font-variant: small-caps; font-size: 25px;}
-h1{font-size: 55px;}
-h2{font-size: 30px;}
+header {
+    background-color: #333333;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 0.4%;
+    padding-bottom: 0.4%;
+}
+
+#logo {
+    padding-left: 20px;
+    padding-top: 1%;
+    float: left;
+}
+
+.title2 {
+    color: #ff0099;
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+.title3 {
+    margin-bottom: 2%;
+    font-weight: 600;
+}
+
+.link {
+    color: #ff0099;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+#navTable {
+    width: 100%;
+}
+
+.navTableTh {
+    width: 50%
+}
+
+#logopic {
+    text-align: left;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#navlinks {
+    float: right;
+}
+
+.navlink {
+    padding-left: 5%;
+    font-variant: small-caps;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 55px;
+    font-family: 'Merriweather', courier;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Merriweather', courier;
+}
+
 #name {
-    font-size: 55px; margin-top: 7%; margin-bottom: 4%;
+    font-size: 55px;
+    margin-top: 7%;
+    margin-bottom: 4%;
+    text-align: left;
 }
-#wiki {font-size: 40px; margin-bottom: 5%;}
-.intro { padding-top: 7%; text-align: left;
+
+#wiki {
+    font-size: 40px;
+    margin-bottom: 5%;
 }
-#wiki {text-align: center;}
+
+.intro {
+    text-align: left;
+}
+
+#wiki {
+    text-align: center;
+}
+
 .techWiki {
     text-align: left;
 }
-.separator{
-    margin-top: 5%; margin-bottom: 4%; font-weight: normal; letter-spacing: 10px;
+
+.separator {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    font-weight: normal;
+    letter-spacing: 10px;
 }
-p{
-    font-weight: 600; font-size: 22px; line-height: 30px;
+
+p {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
 }
+
 article>p {
-    font-size: 18px; margin-bottom: 5%;
+    font-size: 18px;
+    margin-bottom: 5%;
 }
